@@ -29,7 +29,7 @@ public class DiscardServer {
         EventLoopGroup bossGroup = new NioEventLoopGroup();
         EventLoopGroup workerGroup = new NioEventLoopGroup();
 
-        System.out.println("准备运行端口："+port);
+        System.out.println("准备运行 端口："+port);
 
         try {
             ServerBootstrap b = new ServerBootstrap();
